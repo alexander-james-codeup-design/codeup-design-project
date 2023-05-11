@@ -94,9 +94,8 @@ hr{
 .macbook{
     margin-top: 45px;
     margin-left: 150px;
-
 }
-.selected{
+.macbook .selected{
     margin-bottom: 45px;
     text-align: center;
 }
@@ -131,4 +130,19 @@ hr{
     height: 18px;
     background-color: #00aba9;
     /*border: 8px solid white;*/
+}
+.macbook .container .container-small .col-left p{
+    border: 1px solid red;
+    width: 50%;
+}
+.container-small .col-right{
+    width: 50%;
+}
+.macbook .col-left .container .row .col .col-left{
+    width: 40%;
+    border: 1px solid red;
+}
+.macbook .col-left .container .row .col .col-right{
+    width: 40%;
+    border: 1px solid red;
 }
