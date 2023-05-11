@@ -1,0 +1,35 @@
+body{
+    background-color: #e6e6e6;
+}
+.test-one {
+    width: 100px;
+    height: 100px;
+    background-color: #e6563b;
+    color: white;
+    font-weight: bold;
+    border: 5px solid lightgray;
+}
+.test-two {
+    width: 100px;
+    height: 100px;
+    background-color: #eb9d3a;
+    color: white;
+    font-weight: bold;
+    border: 5px solid lightgray;
+}
+.test-three {
+    width: 100px;
+    height: 100px;
+    background-color: #7cb06c;
+    color: white;
+    font-weight: bold;
+    border: 5px solid lightgray;
+}
+.test-four {
+    width: 100px;
+    height: 100px;
+    background-color: #00aba9;
+    color: white;
+    font-weight: bold;
+    border: 5px solid lightgray;
+}
