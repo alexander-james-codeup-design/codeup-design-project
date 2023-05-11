@@ -87,10 +87,10 @@ a{
     margin-bottom: 90px;
     justify-content: center;
 }
-hr{
-    width: 80%;
-    margin: auto;
-}
+/*hr{*/
+/*    width: 80%;*/
+/*    margin: auto;*/
+/*}*/
 .macbook{
     margin-top: 45px;
     margin-left: 150px;
@@ -100,7 +100,7 @@ hr{
     margin-bottom: 45px;
     text-align: center;
 }
-.macbook .container .row img{
+.macbook .col-4 img{
     width: 430px;
     height: 300px;
     border: 6px solid #e6e6e6;
@@ -131,4 +131,9 @@ hr{
     height: 18px;
     background-color: #00aba9;
     /*border: 8px solid white;*/
+}
+.macbook .col-left{
+    border: 1px solid red;
+    float: left;
+
 }
