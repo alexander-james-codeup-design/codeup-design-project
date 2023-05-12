@@ -3,9 +3,6 @@
     .navbar-brand{
         color: transparent;
     }
-    .line-break{
-        width: 0;
-    }
     /*HEADER SECTION WITH NAVBAR*/
     .navbar {
         margin-bottom: 50px;
@@ -99,9 +96,6 @@
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .line-break{
-        width: 80%;
-    }
     .the-selected{
         text-align: center;
     }
@@ -144,9 +138,6 @@
         width: 300px;
         height: 200px;
     }
-    .line-break{
-        width: 90%;
-    }
 }
 
 /*// X-Large devices (large desktops, 1200px and up)*/
@@ -154,28 +145,15 @@
     body{
         background-color: cornflowerblue;
     }
-}
-
-/*// XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {
-    body{
-        background-color: azure;
+    .navbar-brand{
+        color: black;
     }
-    * {
-        box-sizing: border-box;
-    }
-
     /*HEADER SECTION WITH NAVBAR*/
-    .navbar {
-        margin-bottom: 50px;
-    }
-
     .navbar .container-fluid .navbar-brand > img {
         width: 80px;
         height: 80px;
         margin-right: 20px;
     }
-
     .navbar .container-fluid .navbar-brand {
         font-size: 2.5em;
         margin-right: 50px;
@@ -188,24 +166,14 @@
         text-align: center;
         letter-spacing: 1px;
     }
-
     h3 {
         font-family: "Anton";
         font-size: 2.5em;
         text-align: center;
     }
-
     body {
         font-family: "ABEL";
-        background-color: #f0f0f0;
-    }
-
-    .visual {
-        margin-bottom: 45px;
-    }
-
-    .park {
-        margin-bottom: 80px;
+        /*background-color: #f0f0f0;*/
     }
 
     /*FOUR BIG CIRCLES*/
@@ -215,7 +183,6 @@
         background-color: #e6563b;
         border: 8px solid white;
     }
-
     .container .row .big-red-circle p {
         color: white;
         font-family: "Anton";
@@ -223,14 +190,12 @@
         margin-left: 11px;
         margin-top: 28px;
     }
-
     .big-orange-circle {
         width: 100px;
         height: 100px;
         background-color: #eb9d3a;
         border: 8px solid white;
     }
-
     .container .row .big-orange-circle p {
         color: white;
         font-family: "Anton";
@@ -238,14 +203,12 @@
         margin-left: 7px;
         margin-top: 28px;
     }
-
     .big-green-circle {
         width: 100px;
         height: 100px;
         background-color: #7cb06c;
         border: 8px solid white;
     }
-
     .container .row .big-green-circle p {
         color: white;
         font-family: "Anton";
@@ -253,14 +216,12 @@
         margin-left: 7px;
         margin-top: 28px;
     }
-
     .big-blue-circle {
         width: 100px;
         height: 100px;
         background-color: #00aba9;
         border: 8px solid white;
     }
-
     .container .row .big-blue-circle p {
         color: white;
         font-family: "Anton";
@@ -272,50 +233,45 @@
     /*THE SELECTED CONTAINER*/
     h6 {
         text-align: center;
-        padding-left: 0;
     }
-
     .col-seven {
         padding-left: 0;
     }
-
-    .container {
-        padding-left: 0;
-    }
-
     .col-seven .container .row img {
-        width: 370px;
+        width: 340px;
         height: 250px;
         border: 6px solid #e6e6e6;
     }
 
-    .col-seven img {
-        width: 350px;
-        height: 250px;
-        border: 6px solid #e6e6e6;
+    /*SMALLER CIRCLES*/
+    .col-7-container p {
+        color: black;
+        font-family: "Anton";
+        margin-left: -4px;
+        margin-top: -11px;
     }
-
     .small-red-circle {
         width: 18px;
         height: 18px;
+        padding: 10px;
         background-color: #e6563b;
     }
-
     .small-orange-circle {
         width: 18px;
         height: 18px;
+        padding: 10px;
         background-color: #eb9d3a;
     }
-
     .small-green-circle {
         width: 18px;
         height: 18px;
+        padding: 10px;
         background-color: #7cb06c;
     }
-
     .small-blue-circle {
         width: 18px;
         height: 18px;
+        padding: 10px;
         background-color: #00aba9;
     }
 
@@ -324,43 +280,157 @@
         width: 100px;
         height: 100px;
         border: 6px solid #e6e6e6;
-        /*padding-right: 0;*/
     }
-
     .container .row h4 {
         font-family: "Anton";
-        /*padding-left: 0;*/
         font-size: 1.7em;
     }
+}
 
-    /*.the-last-container .row{*/
-    /*    margin-left: 20px;*/
-    /*    margin-right: 20px;*/
-    /*}*/
-    hr {
-        margin-bottom: 45px;
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    body{
+        background-color: azure;
+    }
+    .navbar-brand{
+        color: black;
     }
 
-    .col-6 .container .row .small-red-circle {
-        padding: 10px;
+    /*HEADER SECTION WITH NAVBAR*/
+    .navbar .container-fluid .navbar-brand > img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .navbar .container-fluid .navbar-brand {
+        font-size: 2.5em;
+        margin-right: 50px;
     }
 
-    .col-6 .container .row .small-orange-circle {
-        padding: 10px;
+    /*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
+    h1 {
+        font-family: "ANTON";
+        font-size: 3em;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    h3 {
+        font-family: "Anton";
+        font-size: 2.5em;
+        text-align: center;
+    }
+    body {
+        font-family: "ABEL";
+        background-color: #f0f0f0;
     }
 
-    .col-6 .container .row .small-green-circle {
-        padding: 10px;
+    /*FOUR BIG CIRCLES*/
+    .big-red-circle {
+        width: 100px;
+        height: 100px;
+        background-color: #e6563b;
+        border: 8px solid white;
+    }
+    .container .row .big-red-circle p {
+        color: white;
+        font-family: "Anton";
+        font-weight: bold;
+        margin-left: 11px;
+        margin-top: 28px;
+    }
+    .big-orange-circle {
+        width: 100px;
+        height: 100px;
+        background-color: #eb9d3a;
+        border: 8px solid white;
+    }
+    .container .row .big-orange-circle p {
+        color: white;
+        font-family: "Anton";
+        font-weight: bold;
+        margin-left: 7px;
+        margin-top: 28px;
+    }
+    .big-green-circle {
+        width: 100px;
+        height: 100px;
+        background-color: #7cb06c;
+        border: 8px solid white;
+    }
+    .container .row .big-green-circle p {
+        color: white;
+        font-family: "Anton";
+        font-weight: bold;
+        margin-left: 7px;
+        margin-top: 28px;
+    }
+    .big-blue-circle {
+        width: 100px;
+        height: 100px;
+        background-color: #00aba9;
+        border: 8px solid white;
+    }
+    .container .row .big-blue-circle p {
+        color: white;
+        font-family: "Anton";
+        font-weight: bold;
+        margin-left: 17px;
+        margin-top: 28px;
     }
 
-    .col-6 .container .row .small-blue-circle {
-        padding: 10px;
+    /*THE SELECTED CONTAINER*/
+    h6 {
+        text-align: center;
+    }
+    .col-seven {
+        padding-left: 0;
+    }
+    .col-seven .container .row img {
+        width: 350px;
+        height: 250px;
+        border: 6px solid #e6e6e6;
     }
 
+    /*SMALLER CIRCLES*/
     .col-7-container p {
         color: black;
         font-family: "Anton";
         margin-left: -4px;
         margin-top: -11px;
+    }
+    .small-red-circle {
+        width: 18px;
+        height: 18px;
+        padding: 10px;
+        background-color: #e6563b;
+    }
+    .small-orange-circle {
+        width: 18px;
+        height: 18px;
+        padding: 10px;
+        background-color: #eb9d3a;
+    }
+    .small-green-circle {
+        width: 18px;
+        height: 18px;
+        padding: 10px;
+        background-color: #7cb06c;
+    }
+    .small-blue-circle {
+        width: 18px;
+        height: 18px;
+        padding: 10px;
+        background-color: #00aba9;
+    }
+
+    /*THE LAST CONTAINER*/
+    .col-five .container .row img {
+        width: 100px;
+        height: 100px;
+        border: 6px solid #e6e6e6;
+    }
+    .container .row h4 {
+        font-family: "Anton";
+        font-size: 1.7em;
     }
 }
