@@ -1,102 +1,123 @@
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 10px) and (max-width: 768px) {
+.main-container{
+    border: 1px solid red;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*HEADER SECTION WITH NAVBAR*/
+.navbar .container-fluid .navbar-brand > img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.navbar .container-fluid .navbar-brand {
+    font-size: 2.5em;
+    margin-right: 50px;
+}
+.navbar-nav a {
+    font-size: 1em;
+    margin-right: 20px;
+    transition: 1s ease;
+}
+.navbar-nav a:hover {
+    border-bottom: 1px solid black;
+}
+
+/*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
+h1 {
+    font-family: "ANTON";
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 3px;
+}
+h3 {
+    font-family: "Anton";
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+body {
+    font-family: "ABEL";
+    background-color: #f0f0f0;
+}
+
+/*FOUR BIG CIRCLES*/
+p.rounded-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Anton";
+    font-weight: bold;
+}
+.big-red-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e6563b;
+    border: 8px solid white;
+}
+.big-orange-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #eb9d3a;
+    border: 8px solid white;
+}
+.big-green-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #7cb06c;
+    border: 8px solid white;
+}
+.big-blue-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #00aba9;
+    border: 8px solid white;
+}
+
+/*SMALLER CIRCLES*/
+p.ddsh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Anton";
+
+}
+.small-red-circle {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    background-color: #e6563b;
+}
+.small-orange-circle {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    background-color: #eb9d3a;
+}
+.small-green-circle {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    background-color: #7cb06c;
+}
+.small-blue-circle {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    background-color: #00aba9;
+}
+/*THE SELECTED CONTAINER*/
+h6 {
+    text-align: center;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 10px) and (max-width: 768px){
     .navbar-brand{
-        color: black;
-    }
-    /*HEADER SECTION WITH NAVBAR*/
-    .navbar .container-fluid .navbar-brand > img {
-        width: 80px;
-        height: 80px;
-        margin-right: 20px;
-    }
-    .navbar .container-fluid .navbar-brand {
-        font-size: 2.5em;
-        margin-right: 50px;
-    }
-
-    /*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
-    h1 {
-        font-family: "ANTON";
-        font-size: 3em;
-        text-align: center;
-        letter-spacing: 3px;
-    }
-    h3 {
-        font-family: "Anton";
-        font-size: 2.5em;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    .navbar-nav a {
-        font-size: 1em;
-        margin-right: 20px;
-        transition: 1s ease;
-    }
-    .navbar-nav a:hover {
-        border-bottom: 1px solid black;
-    }
-    body {
-        font-family: "ABEL";
-        /*background-color: #f0f0f0;*/
-    }
-
-    /*FOUR BIG CIRCLES*/
-    .big-red-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #e6563b;
-        border: 8px solid white;
-    }
-    .container .row .big-red-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 11px;
-        margin-top: 28px;
-    }
-    .big-orange-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #eb9d3a;
-        border: 8px solid white;
-    }
-    .container .row .big-orange-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-green-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #7cb06c;
-        border: 8px solid white;
-    }
-    .container .row .big-green-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-blue-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #00aba9;
-        border: 8px solid white;
-    }
-    .container .row .big-blue-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 17px;
-        margin-top: 28px;
-    }
-
-    /*THE SELECTED CONTAINER*/
-    h6 {
-        text-align: center;
+        color: transparent;
     }
     .col-seven .container .row img {
         width: 395px;
@@ -106,39 +127,6 @@
     .featured{
         padding-left: 0;
     }
-
-    /*SMALLER CIRCLES*/
-    .col-7-container p {
-        color: black;
-        font-family: "Anton";
-        margin-left: -4px;
-        margin-top: -11px;
-    }
-    .small-red-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #e6563b;
-    }
-    .small-orange-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #eb9d3a;
-    }
-    .small-green-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #7cb06c;
-    }
-    .small-blue-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #00aba9;
-    }
-
     /*THE LAST CONTAINER*/
     .col-five .container .row img {
         width: 200px;
@@ -147,113 +135,16 @@
     }
     .container .row h4 {
         font-family: "Anton";
-        font-size: 1em;
+        font-size: 1.5em;
     }
-
 }
-/*// Medium devices (tablets, 768px and up)*/
+
+/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    body{
-        background-color: #f0f0f0;
-    }
     .navbar-brand{
         color: black;
     }
-    /*HEADER SECTION WITH NAVBAR*/
-    .navbar .container-fluid .navbar-brand > img {
-        width: 80px;
-        height: 80px;
-        margin-right: 20px;
-    }
-    .navbar .container-fluid .navbar-brand {
-        font-size: 2.5em;
-        margin-right: 50px;
-    }
-
-    /*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
-    h1 {
-        font-family: "ANTON";
-        font-size: 3em;
-        text-align: center;
-        letter-spacing: 3px;
-    }
-    h3 {
-        font-family: "Anton";
-        font-size: 2.5em;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    .navbar-nav a {
-        font-size: 1em;
-        margin-right: 20px;
-        transition: 1s ease;
-    }
-    .navbar-nav a:hover {
-        border-bottom: 1px solid black;
-    }
-    body {
-        font-family: "ABEL";
-        /*background-color: #f0f0f0;*/
-    }
-
-    /*FOUR BIG CIRCLES*/
-    .big-red-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #e6563b;
-        border: 8px solid white;
-    }
-    .container .row .big-red-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 11px;
-        margin-top: 28px;
-    }
-    .big-orange-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #eb9d3a;
-        border: 8px solid white;
-    }
-    .container .row .big-orange-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-green-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #7cb06c;
-        border: 8px solid white;
-    }
-    .container .row .big-green-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-blue-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #00aba9;
-        border: 8px solid white;
-    }
-    .container .row .big-blue-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 17px;
-        margin-top: 28px;
-    }
-
     /*THE SELECTED CONTAINER*/
-    h6 {
-        text-align: center;
-    }
     .col-seven .container .row img {
         width: 275px;
         height: 200px;
@@ -263,42 +154,10 @@
         padding-left: 0;
     }
 
-    /*SMALLER CIRCLES*/
-    .col-7-container p {
-        color: black;
-        font-family: "Anton";
-        margin-left: -4px;
-        margin-top: -11px;
-    }
-    .small-red-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #e6563b;
-    }
-    .small-orange-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #eb9d3a;
-    }
-    .small-green-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #7cb06c;
-    }
-    .small-blue-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #00aba9;
-    }
-
     /*THE LAST CONTAINER*/
     .col-five .container .row img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border: 6px solid #e6e6e6;
     }
     .container .row h4 {
@@ -308,106 +167,17 @@
 
 }
 
-/*// Large devices (desktops, 992px and up)*!*!*/
+/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    body{
-        background-color: #f0f0f0;
-    }
     .navbar-brand{
         color: black;
     }
-    /*HEADER SECTION WITH NAVBAR*/
-    .navbar .container-fluid .navbar-brand > img {
-        width: 80px;
-        height: 80px;
-        margin-right: 20px;
-    }
-    .navbar .container-fluid .navbar-brand {
-        font-size: 2.5em;
-        margin-right: 50px;
-    }
 
-    /*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
-    h1 {
-        font-family: "ANTON";
-        font-size: 3em;
-        text-align: center;
-        letter-spacing: 3px;
-    }
-    h3 {
-        font-family: "Anton";
-        font-size: 2.5em;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    .navbar-nav a {
-        font-size: 1em;
-        margin-right: 20px;
-        transition: 1s ease;
-    }
-    .navbar-nav a:hover {
-        border-bottom: 1px solid black;
-    }
-    body {
-        font-family: "ABEL";
-        /*background-color: #f0f0f0;*/
-    }
-
-    /*FOUR BIG CIRCLES*/
-    .big-red-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #e6563b;
-        border: 8px solid white;
-    }
-    .container .row .big-red-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 11px;
-        margin-top: 28px;
-    }
-    .big-orange-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #eb9d3a;
-        border: 8px solid white;
-    }
-    .container .row .big-orange-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-green-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #7cb06c;
-        border: 8px solid white;
-    }
-    .container .row .big-green-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-blue-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #00aba9;
-        border: 8px solid white;
-    }
-    .container .row .big-blue-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 17px;
-        margin-top: 28px;
-    }
 
     /*THE SELECTED CONTAINER*/
+    /*.the-selected{*/
+    /*    margin-bottom: 90px;*/
+    /*}*/
     h6 {
         text-align: center;
     }
@@ -418,38 +188,6 @@
     }
     .featured{
         padding-left: 0;
-    }
-
-    /*SMALLER CIRCLES*/
-    .col-7-container p {
-        color: black;
-        font-family: "Anton";
-        margin-left: -4px;
-        margin-top: -11px;
-    }
-    .small-red-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #e6563b;
-    }
-    .small-orange-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #eb9d3a;
-    }
-    .small-green-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #7cb06c;
-    }
-    .small-blue-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #00aba9;
     }
 
     /*THE LAST CONTAINER*/
@@ -464,148 +202,19 @@
     }
 }
 
-/*// X-Large devices (large desktops, 1200px and up)*/
+/*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    body{
-        background-color: #f0f0f0;
-    }
     .navbar-brand{
         color: black;
     }
-    /*HEADER SECTION WITH NAVBAR*/
-    .navbar .container-fluid .navbar-brand > img {
-        width: 80px;
-        height: 80px;
-        margin-right: 20px;
-    }
-    .navbar .container-fluid .navbar-brand {
-        font-size: 2.5em;
-        margin-right: 50px;
-    }
 
-    /*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
-    h1 {
-        font-family: "ANTON";
-        font-size: 3em;
-        text-align: center;
-        letter-spacing: 3px;
-    }
-    h3 {
-        font-family: "Anton";
-        font-size: 2.5em;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    .navbar-nav a {
-        font-size: 1em;
-        margin-right: 20px;
-        transition: 1s ease;
-    }
-    .navbar-nav a:hover {
-        border-bottom: 1px solid black;
-    }
-    body {
-        font-family: "ABEL";
-        /*background-color: #f0f0f0;*/
-    }
-
-    /*FOUR BIG CIRCLES*/
-    .big-red-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #e6563b;
-        border: 8px solid white;
-    }
-    .container .row .big-red-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 11px;
-        margin-top: 28px;
-    }
-    .big-orange-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #eb9d3a;
-        border: 8px solid white;
-    }
-    .container .row .big-orange-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-green-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #7cb06c;
-        border: 8px solid white;
-    }
-    .container .row .big-green-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-blue-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #00aba9;
-        border: 8px solid white;
-    }
-    .container .row .big-blue-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 17px;
-        margin-top: 28px;
-    }
-
-    /*THE SELECTED CONTAINER*/
-    h6 {
-        text-align: center;
-    }
     .col-seven .container .row img {
-        width: 330px;
-        height: 230px;
+        width: 355px;
+        height: 250px;
         border: 6px solid #e6e6e6;
     }
     .featured{
         padding-left: 0;
-    }
-
-    /*SMALLER CIRCLES*/
-    .col-7-container p {
-        color: black;
-        font-family: "Anton";
-        margin-left: -4px;
-        margin-top: -11px;
-    }
-    .small-red-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #e6563b;
-    }
-    .small-orange-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #eb9d3a;
-    }
-    .small-green-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #7cb06c;
-    }
-    .small-blue-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #00aba9;
     }
 
     /*THE LAST CONTAINER*/
@@ -623,147 +232,18 @@
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-    body{
-        background-color: #f0f0f0;
-    }
-    .navbar-brand{
-        color: black;
-    }
-
-    /*HEADER SECTION WITH NAVBAR*/
-    .navbar .container-fluid .navbar-brand > img {
-        width: 80px;
-        height: 80px;
-        margin-right: 20px;
-    }
-    .navbar .container-fluid .navbar-brand {
-        font-size: 2.5em;
-        margin-right: 50px;
-    }
-
-    /*VISUAL DESIGN AND WEB DEVELOPMENT SECTION*/
-    h1 {
-        font-family: "ANTON";
-        font-size: 3em;
-        text-align: center;
+    h1{
         letter-spacing: 3px;
-    }
-    h3 {
-        font-family: "Anton";
-        font-size: 2.5em;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    .navbar-nav a {
-        font-size: 1em;
-        margin-right: 20px;
-        transition: 1s ease;
-    }
-    .navbar-nav a:hover {
-        border-bottom: 1px solid black;
-    }
-    body {
-        font-family: "ABEL";
-        background-color: #f0f0f0;
-    }
-
-    /*FOUR BIG CIRCLES*/
-    .big-red-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #e6563b;
-        border: 8px solid white;
-    }
-    .container .row .big-red-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 11px;
-        margin-top: 28px;
-    }
-    .big-orange-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #eb9d3a;
-        border: 8px solid white;
-    }
-    .container .row .big-orange-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-green-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #7cb06c;
-        border: 8px solid white;
-    }
-    .container .row .big-green-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 7px;
-        margin-top: 28px;
-    }
-    .big-blue-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #00aba9;
-        border: 8px solid white;
-    }
-    .container .row .big-blue-circle p {
-        color: white;
-        font-family: "Anton";
-        font-weight: bold;
-        margin-left: 17px;
-        margin-top: 28px;
     }
 
     /*THE SELECTED CONTAINER*/
-    h6 {
-        text-align: center;
-    }
     .col-seven .container .row img {
-        width: 340px;
+        width: 355px;
         height: 250px;
         border: 6px solid #e6e6e6;
     }
     .featured{
         padding-left: 0;
-    }
-
-    /*SMALLER CIRCLES*/
-    .col-7-container p {
-        color: black;
-        font-family: "Anton";
-        margin-left: -4px;
-        margin-top: -11px;
-    }
-    .small-red-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #e6563b;
-    }
-    .small-orange-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #eb9d3a;
-    }
-    .small-green-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #7cb06c;
-    }
-    .small-blue-circle {
-        width: 18px;
-        height: 18px;
-        padding: 10px;
-        background-color: #00aba9;
     }
 
     /*THE LAST CONTAINER*/
