@@ -120,7 +120,7 @@ h6 {
         color: transparent;
     }
     .col-seven .container .row img {
-        width: 395px;
+        width: 400px;
         height: 310px;
         border: 6px solid #e6e6e6;
     }
@@ -164,6 +164,10 @@ h6 {
         font-family: "Anton";
         font-size: 1em;
     }
+    .four-circle{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 
 }
 
@@ -200,6 +204,10 @@ h6 {
         font-family: "Anton";
         font-size: 1em;
     }
+    .four-circle{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
 
 /*X-Large devices (large desktops, 1200px and up)*/
@@ -226,6 +234,10 @@ h6 {
     .container .row h4 {
         font-family: "Anton";
         font-size: 1em;
+    }
+    .four-circle{
+        margin-left: 270px;
+        margin-right: 270px;
     }
 
 }
@@ -255,5 +267,9 @@ h6 {
     .container .row h4 {
         font-family: "Anton";
         font-size: 1.7em;
+    }
+    .four-circle{
+        margin-left: 350px;
+        margin-right: 350px;
     }
 }
